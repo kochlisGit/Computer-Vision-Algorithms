@@ -9,3 +9,7 @@ So, the first optimization is that I sacrificed 1 iteration to an integral image
 
 # Performance & Results
 This method is 2 times slower than Wellner's algorithm. However, It will produce better results in an Image with strong Illumination changes. With some Normal hardware, You can achieve real-time thresholding.
+
+![Image of an old Newspapaer](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Adaptive%20Thresholding/Database/newspaper.jpg)
+
+![Image of binarized Newspapaer](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Adaptive%20Thresholding/newspaper_binarized.jpg)
