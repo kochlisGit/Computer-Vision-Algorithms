@@ -24,7 +24,9 @@ Below You can compare the original image with the sharpened image using these 2 
 
 Original Image
 ![Original Image](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Sharpening/Database/Cat.jpg)
+
 Sharpened with Laplacian Kernel
 ![Sharpened Image](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Sharpening/cat_sharpened_filter.jpg)
+
 Sharpened with Unsharp
 ![Sharpened Image](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Sharpening/cat_sharpened_unmask.jpg)
