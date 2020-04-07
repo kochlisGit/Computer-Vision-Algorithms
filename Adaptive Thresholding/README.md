@@ -13,3 +13,5 @@ This method is 2 times slower than Wellner's algorithm. However, It will produce
 ![Image of an old Newspapaer](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Adaptive%20Thresholding/Database/newspaper.jpg)
 
 ![Image of binarized Newspapaer](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Adaptive%20Thresholding/newspaper_binarized.jpg)
+
+There are more images in the Database folder to test the algorithm.
