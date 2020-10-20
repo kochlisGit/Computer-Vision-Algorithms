@@ -9,4 +9,4 @@ and then modify the original RGB images to gray-scaled pencil sketches.
 1. Press 1-2 to swap filters.
 
 # How to run
-python webcam_sketch.py
+**python webcam_sketch.py**
