@@ -28,3 +28,6 @@ OpenCV offers 3 important functions for image undistortion:
 You can see below the comparison between the distored image (on the left) and the undistorted image (on the right).
 
 ![comparison image](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/comparison.png)
+
+In the first Image, which is distorted, It looks as If the car is perfectly positioned on the lane and should move forward. However, In the second image, which shows
+how the vehicle is really positioned on the lane, You can clearly notice that the car should correct It's steering (perhaps 5 angles to the right).
