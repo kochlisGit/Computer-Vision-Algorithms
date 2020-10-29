@@ -9,5 +9,22 @@ differently.
 
 # Calibrating the Image
 The easiest way to calibrate a camera is to capture Chessboard photos, then use opencv to find the chessboard's corners and calibrate the camera. In this example, 
-I used my phone's camera to take pictures of a chessboard.
+I used my phone's camera to take pictures of a chessboard. It is important to take the pictures from a different perspective each time.
 
+![Chessboard image1](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/chessboard1.JPEG)
+![Chessboard image2](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/chessboard2.JPEG)
+![Chessboard image3](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/chessboard3.JPEG)
+![Chessboard image4](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/chessboard4.JPEG)
+![Chessboard image5](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/chessboard5.JPEG)
+
+# Calibration with OpenCV
+OpenCV offers 3 important functions for image undistortion:
+
+    1. cv2.findChessboardCorners(image, patternSize, corners=None, flags=None)
+    2. cv2.calibrateCamera(objectPoints, imagePoints, imageSize, cameraMatrix=None, distCoeffs=None)
+    3. cv2.undistort(src, cameraMatrix, distCoeffs, dst, newCameraMatrix)
+    
+# Results
+You can see below the comparison between the distored image (on the left) and the undistorted image (on the right).
+
+![comparison image](https://github.com/kochlisGit/Computer-Vision-Algorithms/blob/master/Camera%20Calibration/images/comparison.png)
